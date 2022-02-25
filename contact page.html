@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get To Know Us</title>
+    <style>
+        body{
+            background-image: url('https://as1.ftcdn.net/v2/jpg/01/18/23/20/1000_F_118232048_6QiNeYmnzwQbBrXJ5cHkKCKKAE7jLSYH.jpg');
+              background-image: ;
+            font-family: 'forte';
+            font-size: large;
+        }
+        img{
+            width: 1500px;
+            height: 500px;
+            vertical-align: auto;
+        }
+        .info{
+            float: left;
+            padding: 10px;
+            width: 450px;
+            height: max-content;
+            border: 13px solid rgb(18, 23, 94);
+            /* display: inline; */
+            background-color: rgb(119, 195, 224);
+            align: center;
+            padding: auto;
+            
+            /* margin: 43px auto; */
+        }
+        link{
+            width: 80vw;
+            height: 60vh;
+            padding: 10px;
+        }
+        .meet{
+            float: right;
+            padding: 10px;
+            width: 450px;
+            height: 500px;
+            border: 13px solid rgb(18, 23, 94);
+            /* display: inline; */
+            background-color: rgb(119, 195, 224);
+            align: center;
+            padding: auto;
+            
+            /* margin: 43px auto; */
+        }
+        
+        .container{
+            /* float: left; */
+            margin: auto;
+            width: 1400px;
+            padding: 2%;
+            /* background-color: beige; */
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <img src="https://st2.depositphotos.com/1265075/7446/i/600/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg" alt="" style="height: 30%;">
+    
+    <div class="container">
+        <div style="background-color: black;width: auto; ">
+    <br><h1 color="white" style ="text-align: center; color: bisque;">CONTACT US</h1><hr><p style="color: rgb(98, 238, 238); text-align: center;">Swing by for a cup of coffee, or leave us a message :)</p><br></div>
+    <br><br><br>
+    <div class="info"><form action="backend.php"></form>
+        
+        <div ><br>
+        <label for="name"><strong>First Name: <br> </strong></label>
+    
+        <input type="text" id="name" placeholder="Your name..">
+    </div>
+    <br>
+        <br>
+        <div style="padding: 2%;">
+        <label for="lname" ><strong> Last Name: <br> </strong></label>
+    
+        <input type="text" id="name" placeholder="Your last name..">
+    </div>
+    <br>
+    <div style="padding: 2%;">
+    <label for="email"><strong>  Email Address: <br> </strong></label>
+    
+       <input type="email" name="myEmail" id="email" placeholder="Your email..">
+        
+    </div>
+   <br>
+    <div style="padding: 2%;" >
+       <strong>  Message:  </strong><br> <textarea name="mytext" cols="40" row="10"></textarea>
+    </div>
+    <br>
+    <div style="padding: 2%;">
+        <strong>Phone:</strong><input type="radio" name="Myreach">
+        <strong>Email:</strong><input type="radio" name="Myreach">
+        <strong>Message:</strong><input type="radio" name="Myreach">
+    </div><br><br>
+    <div>
+        <input type="submit" value="Submit">
+        
+    </div>
+    <br>
+    
+</div>
+<br><br><br>
+<div class="meet">
+    <h2 style="text-align: center;text-decoration: double;">Meet Us</h2>
+    <p style="padding: 2%; font-size: large;">Gopali Youth Welfare Society,<br>Indian Institute Of Technology Kharagpur <br><br> <strong>If we are called campus we can meet but alas this feature isnt working for now.</strong><br><br><p><a href="https://www.facebook.com/profile.php?id=100073914326283">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="facebook"  class="link" style="height: 30%; width: 30%;"></a>
+    <a href="https://www.instagram.com/alive_on_weekends/">
+        <img src="https://i.pinimg.com/736x/2c/da/19/2cda1925dcf4fb8f0644413f49671ffa.jpg" alt="instagram" class="link" style="height: 30%; width: 30%;"></a>
+    <a href="https://twitter.com/home">
+        <img src="data:image/png;base64,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" alt="twitter" class="link" style="height: 30%; width: 30%;">
+        </a></p>
+</div>
+</div>
+
+
+</body>
+</html>
